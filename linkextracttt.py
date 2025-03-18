@@ -51,7 +51,7 @@ def GetPage(number):
 create_table()
 
 # Scrape and save multiple pages
-for page in range(1, 3):  # Change range to scrape more pages
+for page in range(1, 5):  # Change range to scrape more pages
     GetPage(page)
 
 print("Database saved as 'itch_games.db'")
