@@ -1,0 +1,2 @@
+[console_scripts]
+itch-scraper = itch_main.main:main
